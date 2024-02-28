@@ -3,7 +3,6 @@
 #include "hardware/gpio.h"
 #include "pico/binary_info.h"
 
-const uint LED_PIN = 25;
 // const uint PIN_1 = 2;
 // const uint PIN_2 = 3;
 // const uint PIN_3 = 4;
@@ -20,6 +19,7 @@ const uint LED_PIN = 25;
 // const uint MODE_2 = 15;
 // const uint MODE_3 = 16;
 // const uint MODE_4 = 17;
+const uint LED_PIN = 25;
 const uint32_t ALL_PINS_MASK = 0x3fffc;
 const uint32_t INPUT_PINS_MASK = 0x3FFC;
 const uint32_t ROW_1_MASK = 0x3C;
@@ -41,20 +41,20 @@ int main()
     gpio_set_dir_masked(ALL_PINS_MASK, 0);
     uint32_t input;
     uint32_t previous_input;
-    uint r1, r2, r3, pins, mode = 0;
+    uint row1, row2, row3, pins, mode = 0;
     gpio_put(LED_PIN, 1);
     while(true)
     {
         input = gpio_get_all() & ALL_PINS_MASK;
         pins = input & INPUT_PINS_MASK;
-        r1 = (input & ROW_1_MASK) >> 2;
-        r2 = (input & ROW_2_MASK) >> 6;
-        r3 = (input & ROW_3_MASK) >> 10;
+        row1 = (input & ROW_1_MASK) >> 2;
+        row2 = (input & ROW_2_MASK) >> 6;
+        row3 = (input & ROW_3_MASK) >> 10;
         mode = (input & MODE_MASK) >> 14;
         if (pins && input != previous_input)
         {
             gpio_put(LED_PIN, 1);
-            printf("%lu, %lu, %lu, %lu\n", mode, r1, r2, r3);
+            printf("%lu, %lu, %lu, %lu\n", mode, row1, row2, row3);
         }
         else if (pins && previous_input == input)
         {
