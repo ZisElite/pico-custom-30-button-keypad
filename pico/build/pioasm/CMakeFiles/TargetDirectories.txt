@@ -1,0 +1,3 @@
+/mnt/SSD Storage/Libraries/Documents/GitHub/pico-custom-30-button-keypad/pico/build/pioasm/CMakeFiles/pioasm.dir
+/mnt/SSD Storage/Libraries/Documents/GitHub/pico-custom-30-button-keypad/pico/build/pioasm/CMakeFiles/edit_cache.dir
+/mnt/SSD Storage/Libraries/Documents/GitHub/pico-custom-30-button-keypad/pico/build/pioasm/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,13 @@
+# Target labels
+ PioasmBuild
+# Source files and their labels
+/mnt/SSD Storage/Libraries/Documents/GitHub/pico-custom-30-button-keypad/pico/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild
+/mnt/SSD Storage/Libraries/Documents/GitHub/pico-custom-30-button-keypad/pico/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.rule
+/mnt/SSD Storage/Libraries/Documents/GitHub/pico-custom-30-button-keypad/pico/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete.rule
+/mnt/SSD Storage/Libraries/Documents/GitHub/pico-custom-30-button-keypad/pico/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule
+/mnt/SSD Storage/Libraries/Documents/GitHub/pico-custom-30-button-keypad/pico/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule
+/mnt/SSD Storage/Libraries/Documents/GitHub/pico-custom-30-button-keypad/pico/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule
+/mnt/SSD Storage/Libraries/Documents/GitHub/pico-custom-30-button-keypad/pico/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule
+/mnt/SSD Storage/Libraries/Documents/GitHub/pico-custom-30-button-keypad/pico/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule
+/mnt/SSD Storage/Libraries/Documents/GitHub/pico-custom-30-button-keypad/pico/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule
+/mnt/SSD Storage/Libraries/Documents/GitHub/pico-custom-30-button-keypad/pico/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule

@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "F:/Libraries/Documents/GitHub/pico-custom-30-button-keypad/pico"
+    "cmake.sourceDirectory": "/mnt/SSD Storage/Libraries/Documents/GitHub/pico-custom-30-button-keypad/pico",
+    "cmake.configureOnOpen": true
 }

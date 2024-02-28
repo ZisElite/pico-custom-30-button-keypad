@@ -1,0 +1,5 @@
+/mnt/SSD Storage/Libraries/Documents/GitHub/pico-custom-30-button-keypad/pico/build/elf2uf2/CMakeFiles/elf2uf2.dir
+/mnt/SSD Storage/Libraries/Documents/GitHub/pico-custom-30-button-keypad/pico/build/elf2uf2/CMakeFiles/edit_cache.dir
+/mnt/SSD Storage/Libraries/Documents/GitHub/pico-custom-30-button-keypad/pico/build/elf2uf2/CMakeFiles/rebuild_cache.dir
+/mnt/SSD Storage/Libraries/Documents/GitHub/pico-custom-30-button-keypad/pico/build/elf2uf2/boot_uf2_headers/CMakeFiles/edit_cache.dir
+/mnt/SSD Storage/Libraries/Documents/GitHub/pico-custom-30-button-keypad/pico/build/elf2uf2/boot_uf2_headers/CMakeFiles/rebuild_cache.dir

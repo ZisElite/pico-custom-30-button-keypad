@@ -1,8 +1,8 @@
-# Install script for directory: F:/Libraries/Documents/GitHub/pico-custom-30-button-keypad/pico
+# Install script for directory: /mnt/SSD Storage/Libraries/Documents/GitHub/pico-custom-30-button-keypad/pico
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/kb_manager")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,12 +34,12 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/gcc-arm-none-eabi/bin/arm-none-eabi-objdump.exe")
+  set(CMAKE_OBJDUMP "/usr/bin/arm-none-eabi-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("F:/Libraries/Documents/GitHub/pico-custom-30-button-keypad/build/pico-sdk/cmake_install.cmake")
+  include("/mnt/SSD Storage/Libraries/Documents/GitHub/pico-custom-30-button-keypad/build/pico-sdk/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "F:/Libraries/Documents/GitHub/pico-custom-30-button-keypad/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/SSD Storage/Libraries/Documents/GitHub/pico-custom-30-button-keypad/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
